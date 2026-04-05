@@ -1,0 +1,29 @@
+/* English Keywords */
+.er-ignite {
+  color: #d95302;
+}
+
+.er-lock,
+.er-exhaust {
+  color: #a37a00;
+}
+
+.er-wound {
+  color: #f00000;
+  font-weight: bold;
+}
+
+.er-link {
+  color: #1b00b6;
+}
+
+.er-affinity,
+.er-primary {
+  font-weight: bold;
+}
+
+.er-rolltodo,
+.er-rolltodye,
+.er-attribute {
+  font-style: italic;
+}
