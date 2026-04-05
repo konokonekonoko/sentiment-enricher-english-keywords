@@ -1,92 +1,81 @@
 const patterns = [
     [
-        /(level|lvl?) ?\d+/, {
+        /(level|lvl?) ?\d+/gi, {
             classes: ["numbers"],
-            flags: "gi",
         },
     ],
     [
-        /IGNIT(ED?|ING)/, {
+        /IGNIT(ED?|ING)/g, {
             classes: ["ignite"],
-            flags: "g",
             strFormat: {
                 case: "title",
             },
         },
     ],
     [
-        /LOCK(ING|ED)?( ?OUT)?/, {
+        /LOCK(ING|ED)?( ?OUT)?/g, {
             classes: ["lock"],
-            flags: "g",
             strFormat: {
                 case: "title",
             },
         },
     ],
     [
-        /EXHAUST(ED)?/, {
+        /EXHAUST(ED)?/g, {
             classes: ["exhaust"],
-            flags: "g",
             strFormat: {
                 case: "title",
             },
         },
     ],
     [
-        /WOUND(ING|ED)?/, {
+        /WOUND(ING|ED)?/g, {
             classes: ["wound"],
-            flags: "g",
             strFormat: {
                 case: "title",
             },
         },
     ],
     [
-        /AFFINIT(Y|IES)/, {
+        /AFFINIT(Y|IES)/g, {
             classes: ["affinity"],
-            flags: "g",
             strFormat: {
                 case: "title",
             },
         },
     ],
     [
-        /PRIMARY/, {
+        /PRIMARY/g, {
             classes: ["primary"],
-            flags: "g",
             strFormat: {
                 case: "title",
             },
         },
     ],
     [
-        /LINKS?/, {
+        /LINKS?/g, {
             classes: ["link"],
-            flags: "g",
             strFormat: {
                 case: "title",
             },
         },
     ],
     [
-        /ATTRIBUTES?/, {
+        /ATTRIBUTES?/g, {
             classes: ["attribute"],
-            flags: "g",
             strFormat: {
                 case: "title",
             },
         },
     ],
     [
-        /Roll to Do/, {
+        /Roll to Do/g, {
             classes: ["rolltodo"],
-            flags: "g",
         },
     ],
     [
-        /Roll to Dye/, {
+        /Roll to Dye/g, {
             classes: ["rolltodye"],
-            flags: "g",
         },
     ],
 ];
